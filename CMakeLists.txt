@@ -38,3 +38,9 @@ endif()
 target_sources(${TARGET_NAME} PRIVATE
 	main.cpp
 )
+
+add_subdirectory(spdlog)
+
+target_link_libraries(${TARGET_NAME} PRIVATE
+    spdlog::spdlog
+)

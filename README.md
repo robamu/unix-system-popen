@@ -1,3 +1,15 @@
+# Building `rust-app`
+
+Rust must be installed
+
+```sh
+cd rust-app-dir
+cargo build
+cp target/debug/rust-app ..
+cd ..
+./rust-app
+```
+ 
 # C++ and C project template
 
 Project template for building C++ and C projects with CMake and various different compilers
