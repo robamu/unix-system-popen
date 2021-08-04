@@ -14,7 +14,7 @@ if(USE_LLVM)
     set(CMAKE_TOOLCHAIN_FILE "ClangToolchain.cmake")
 endif()
 
-project(hello_world)
+project(unix-popen-system)
 
 # Set names and variables
 set(TARGET_NAME ${CMAKE_PROJECT_NAME}) 
