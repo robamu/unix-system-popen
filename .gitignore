@@ -44,3 +44,7 @@ MinSizeRel*
 *.exe
 *.out
 *.app
+
+# Rust
+/rust-app-dir/target
+/rust-app-dir/Cargo.lock
